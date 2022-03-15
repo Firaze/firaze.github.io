@@ -9,6 +9,14 @@
 # General
 --------------------------------------------------------------*/
 
+@media only screen and (max-width: 480px) {
+  img {
+    max-width: 98vw;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
