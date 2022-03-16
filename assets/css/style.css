@@ -1072,7 +1072,7 @@ section .container {
 }
 
 @media only screen and (max-width: 48em) {
-  img {
+  #aaa {
     width: 90vw;
     height: auto;
 }
