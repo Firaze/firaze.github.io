@@ -9,9 +9,9 @@
 # General
 --------------------------------------------------------------*/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 991px) {
   img {
-    max-width: 98vw;
+    max-width: 90vw;
     height: auto;
     width: auto\9; /* ie8 */
 }
