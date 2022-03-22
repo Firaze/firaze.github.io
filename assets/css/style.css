@@ -8,12 +8,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-.images {
-    height: auto !important; 
-    width: auto !important;  
-    max-width: 90% !important; 
-    max-height: 40% !important;
-}
+
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -904,7 +899,12 @@ section .container {
 }
 
 
-
+.portfolio-details .images {
+    height: auto !important; 
+    width: auto !important;  
+    max-width: 90% !important; 
+    max-height: 40% !important;
+}
 
 
 /*--------------------------------------------------------------
