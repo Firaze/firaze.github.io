@@ -1071,9 +1071,9 @@ section .container {
   color: #fff;
 }
 
-@media only screen and (max-width: 48em) {
-  #aaa {
-    width: 90vw;
-    height: auto;
-}
+#images {
+    height: auto; 
+    width: auto; 
+    max-width: 90%; 
+    max-height: 40%;
 }
