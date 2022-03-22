@@ -1071,7 +1071,7 @@ section .container {
   color: #fff;
 }
 
-#images {
+.images {
     height: auto; 
     width: auto; 
     max-width: 90%; 
