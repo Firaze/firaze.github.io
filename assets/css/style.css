@@ -899,7 +899,7 @@ section .container {
 }
 
 
-.portfolio-details .images {
+.portfolio-details img {
     height: auto !important; 
     width: auto !important;  
     max-width: 90% !important; 
