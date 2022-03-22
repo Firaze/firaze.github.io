@@ -899,12 +899,6 @@ section .container {
 }
 
 
-.portfolio-details img {
-    height: auto !important; 
-    width: auto !important;  
-    max-width: 90% !important; 
-    max-height: 40% !important;
-}
 
 
 /*--------------------------------------------------------------
@@ -1076,3 +1070,9 @@ section .container {
   color: #fff;
 }
 
+.portfolio-details img {
+    height: auto !important; 
+    width: auto !important;  
+    max-width: 95% !important; 
+    max-height: 40% !important;
+}
