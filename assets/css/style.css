@@ -8,7 +8,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
+.images {
+    height: auto !important; 
+    width: auto !important;  
+    max-width: 90% !important; 
+    max-height: 40% !important;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -1071,9 +1076,3 @@ section .container {
   color: #fff;
 }
 
-.images {
-    height: auto; 
-    width: auto; 
-    max-width: 90%; 
-    max-height: 40%;
-}
