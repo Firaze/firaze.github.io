@@ -839,7 +839,6 @@ section .container {
 # Portfolio Details
 --------------------------------------------------------------*/
 
-
 .portfolio-details {
   padding-top: 40px;
   background: rgba(0, 0, 0, 0.8);
@@ -895,6 +894,70 @@ section .container {
   background-color: rgba(255, 255, 255, 0.3);
 }
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #1881d2;
+}
+
+
+
+.resume-details {
+  padding-top: 40px;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+  
+}
+.resume-details .gnext {
+    display: none !important;
+}
+.resume-details .container {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.resume-details .portfolio-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.resume-details .portfolio-info {
+  padding-top: 45px;
+}
+.resume-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.resume-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+.resume-details .portfolio-info ul li + li {
+  margin-top: 10px;
+}
+.resume-details .portfolio-info p {
+  font-size: 15px;
+  padding: 15px 0 0 0;
+}
+@media (max-width: 992px) {
+  .resume-details .portfolio-info {
+    padding-top: 20px;
+  }
+}
+.resume-details .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+.resume-details .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.resume-details .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #1881d2;
 }
 
@@ -1077,4 +1140,9 @@ section .container {
     max-height: 40% !important;
 }
 
-
+ .gnext  {
+  display: none !important;
+}
+ .gprev  {
+  display: none !important;
+}

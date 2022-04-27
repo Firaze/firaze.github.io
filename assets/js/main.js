@@ -244,4 +244,18 @@
     }
   });
 
+	  const resumeLightbox = GLightbox({
+    selector: '.resume-lightbox',
+	autofocusVideos: true
+  });
+
+  /**
+   * Initiate resume details lightbox 
+   */
+  const resumeDetailsLightbox = GLightbox({
+    selector: '.resume-details-lightbox',
+    width: '90%',
+    height: '90vh',
+	autofocusVideos: true
+  });
 })()
