@@ -1146,3 +1146,32 @@ section .container {
  .gprev  {
   display: none !important;
 }
+
+.gslide-media {
+	background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.credits {
+	font-size: 10px;
+}
+
+
+@media (min-width: 992px) {
+.portfolio-details .container {
+    max-width: 99%;
+}
+}
+
+
+.swiper-slide {
+ display:table-cell; 
+ vertical-align:middle; 
+ text-align:center
+}
+
+
+#points {
+    list-style: circle !important;
+    padding: 1vw !important;
+    font-size: 15px !important;
+}

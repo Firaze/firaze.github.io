@@ -83,7 +83,13 @@
 					</div>	
 					<div class="swiper-slide">
 					  <img src="assets/img/portfolio/efp11.png" class="images" alt="">
-					</div>						
+					</div>
+					<div class="swiper-slide">
+					  <img src="assets/img/portfolio/efp12.png" class="images" alt="">
+					</div>
+					<div class="swiper-slide">
+					  <img src="assets/img/portfolio/efp13.png" class="images" alt="">
+					</div>					
 				  </div>
 				  <div class="swiper-pagination"></div>
 				</div>
@@ -92,12 +98,18 @@
 
 			  <div class="col-lg-4 portfolio-info">
 				<h3>Project information</h3>
-				<ul>
+				<ul >
 				  <li><strong>Category</strong>: EDA - Supervised Learning</li>
 				  <li><strong>Project</strong>: <a href="https://www.kaggle.com/francescovattiato/deep-eda-with-plotly-xgboost-acc-86/notebook" target="_blank">Link to Kaggle</a></li>
 				</ul>
 				<p>
-				In this project, I worked on a dataset populated by employees data of a given company. For each employee, there are several variables and one of them (LeavesOrNot) is a binary attribute that indicates wheter the employee left the company 2 years later after being hired or not.  I performed an <b>EDA</b> to learn more about the company's employees and to <b>find any problem </b> that would harm the employees or the company. Then, I modeled an <b>XGBOOST classifier</b> to predict the LeavesOrNot variable, with a final accuracy of <b>86%</b> on the test set.
+				In this project, I worked on a dataset populated by employees data of a given company. For each employee, there are several variables and one of them (LeavesOrNot) is a binary attribute that indicates wheter the employee left the company 2 years later after being hired or not.  I performed an <b>EDA</b> to learn more about the company's employees and to <b>find any problem </b> that would harm the employees or the company. In particular, the EDA highlighted that:
+				<ul id="points">
+				  <li>Employees with master education present an abnormal behaviour in terms of payment tier and staying in the company.</li>
+				  <li>This company has unlikely gender discrimination issues that may lead employeers to leave. However, the company's site located in Pune presents many resignations from female employeers despite they tend to have higher paid jobs than male employeers.</li>
+				  <li>The last two years (2017/2018) were peculiar for the company in term of resigned employees.</li>
+				</ul>
+				Finally, I modeled an <b>XGBOOST classifier</b> to predict the LeavesOrNot variable, with a final accuracy of <b>86%</b> on the test set.
 				</p>
 			  </div>
 
